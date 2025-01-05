@@ -1,4 +1,4 @@
-Question 867
+Problem Link ::: https://leetcode.com/problems/transpose-matrix/description/
 
 class Solution {
     public int[][] transpose(int[][] matrix) {
