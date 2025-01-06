@@ -1,4 +1,4 @@
-Question 1550
+Problem Link ::: https://leetcode.com/problems/three-consecutive-odds/description/
 
 class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
