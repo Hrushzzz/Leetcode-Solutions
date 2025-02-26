@@ -1,6 +1,6 @@
 # Leetcode Solutions 🚀  
 
-Welcome to my **LeetCode Solutions** repository! 💡 This is a collection of solutions to various **LeetCode** problems, written in **Java** (or other languages as needed). My goal is to **solve every LeetCode problem** and document my progress here.  
+Welcome to my **LeetCode Solutions** repository! 💡 This is a collection of solutions to various **LeetCode** problems, written in **Java**. My goal is to **solve every LeetCode problem** and document my progress here.  
 
 ## 📌 What You'll Find Here
 
