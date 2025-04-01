@@ -2,25 +2,16 @@
 
 class Solution {
     public int findLucky(int[] arr) {
-        int N = arr.length;
-        HashMap<Integer,Integer> myMap = new HashMap<>();
-        for (int i = 0; i < N; i++) {
-            if (myMap.containsKey(arr[i]) == false) {
-                myMap.put(arr[i], 1);
-            } else {
-                int freq = myMap.get(arr[i]);
-                myMap.put(arr[i], freq+1);
+        int [] freqArr = new int[501];
+        for(int i = 0; i < arr.length; i++){
+          freqArr[arr[i]]++;
+        }
+        int ans = -1;
+        for(int i = 1; i <= 500; i++){
+            if(freqArr[i] == i){
+                ans = i;
             }
         }
-        int max = -1;
-        for (int i = 0; i < N; i++) {
-            int numToCheck = arr[i];
-            if (myMap.get(arr[i]) == numToCheck) {
-                if (myMap.get(arr[i]) > max) {
-                    max = numToCheck;
-                }
-            }
-        }
-        return max;
+        return ans;
     }
 }
